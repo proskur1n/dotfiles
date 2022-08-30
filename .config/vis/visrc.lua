@@ -1,4 +1,6 @@
 require("vis")
+require("plugins/cursors")
+require("plugins/commentary")
 
 vis.events.subscribe(vis.events.INIT, function()
 	-- Global configuration
